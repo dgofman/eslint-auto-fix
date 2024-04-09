@@ -1,19 +1,25 @@
 {
   "name": "eslint-plugin-lintfix",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ESLint auto fix plugins",
   "author": "David Gofman",
   "main": "src/index.js",
   "scripts": {
-    "test": "eslint test/demo.ts test/demo.tsx -c test/.eslintrc.js --fix"
+    "test": "eslint test/demo.ts test/demo.tsx -c test/.eslintrc.js --fix",
+    "tslint": "node type-check.mjs"
   },
   "keywords": [
+    "eslint-autofix",
     "eslint",
+    "autofix",
     "auto fix",
     "fix",
     "plugin"
   ],
-  "license": "ISC",
+  "license": "MIT",
+  "repository": "https://github.com/dgofman/eslint-auto-fix",
+  "homepage": "https://github.com/dgofman/eslint-auto-fix",
+  "bugs": "https://github.com/dgofman/eslint-auto-fix/issues/",
   "devDependencies": {
     "@types/node": "latest",
     "@types/react": "latest",
