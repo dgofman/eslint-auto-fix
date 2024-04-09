@@ -1,0 +1,28 @@
+{
+  "name": "eslint-plugin-lintfix",
+  "version": "1.0.0",
+  "description": "ESLint auto fix plugins",
+  "author": "David Gofman",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "eslint test/demo.ts test/demo.tsx -c test/.eslintrc.js --fix"
+  },
+  "keywords": [
+    "eslint",
+    "auto fix",
+    "fix",
+    "plugin"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "eslint": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-jsx-a11y": "latest",
+    "eslint-plugin-lintfix": "file:src/",
+    "eslint-plugin-react": "latest",
+    "eslint-rule-composer": "latest"
+  }
+}
