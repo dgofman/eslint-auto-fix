@@ -21,7 +21,7 @@ add prefix "lintfix" to the rulename in eslintrc:
 ```
 
 ```bash
-npm eslint . --fix
+npx eslint . --fix
 ```
 
 ## Supported rules
